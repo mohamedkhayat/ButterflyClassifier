@@ -11,7 +11,8 @@ Python & Flask: For handling requests and interfacing with the PyTorch model.
 PyTorch: For image classification.
 To use this app:
 
+Make sure you have pytorch and javafx installed
 Download the .pth file from the provided Dropbox link and insert it into the python folder.
 Run app.py in the Python environment.
 Launch the Java application to interact with the GUI.
-The dataset used to train the model can be found here.
+The dataset used to train the model can be found here : https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification/data
