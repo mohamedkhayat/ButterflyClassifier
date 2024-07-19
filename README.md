@@ -11,7 +11,7 @@ Python & Flask: For handling requests and interfacing with the PyTorch model.
 PyTorch: For image classification.
 To use this app:
 
-Make sure you have pytorch and javafx installed
+Make sure you have pytorch installed
 
 Download the .pth file from the provided Dropbox link : https://www.dropbox.com/scl/fi/4fee601p77854l1mgjfp8/butterfly_model.pth?rlkey=ddxsjjkkyzti5ngpwt84jtoba&st=kgndiuk1&dl=0
 
