@@ -1,6 +1,6 @@
 # ButterflyClassifier
 
-This project is a Butterfly Classification application that combines Java and Python technologies. The application utilizes JavaFX for the graphical user interface (GUI), including file selection. Images selected through the Java-based GUI are sent to a Python backend using Flask.
+This project is a Butterfly Classification application that combines Java and Python. The application utilizes JavaFX for the graphical user interface (GUI), including file selection. Images selected through the Java-based GUI are sent to a Python backend using Flask.
 
 In the Python backend, the image is processed and fed into a fine-tuned VGG model trained with PyTorch to classify butterfly species. The prediction results are then sent back to the Java application for display.
 
