@@ -4,6 +4,10 @@ This project is a Butterfly Classification application that combines Java and Py
 
 In the Python backend, the image is processed and fed into a fine-tuned VGG model trained with PyTorch to classify butterfly species. The prediction results are then sent back to the Java application for display.
 
+
+https://github.com/user-attachments/assets/6d2601c7-4664-4e59-b822-ed584248024b
+
+
 Technologies Used:
 
 Java & JavaFX: For GUI and file selection.
