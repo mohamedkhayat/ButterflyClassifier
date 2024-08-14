@@ -1,5 +1,3 @@
- Spam Detection App
-
 ### Overview
 The **Spam Detection App** is a practical project designed to apply TensorFlow and NLP techniques for classifying spam messages. This project builds on concepts from the *Machine Learning Specialization* and the book *Natural Language Processing in Action* to create, train, and deploy an effective spam detection model.
 
