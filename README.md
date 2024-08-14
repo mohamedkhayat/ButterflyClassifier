@@ -1,28 +1,33 @@
-# ButterflyClassifier
+ Spam Detection App
 
-This project is a Butterfly Classification application that combines Java and Python. The application utilizes JavaFX for the graphical user interface (GUI), including file selection. Images selected through the Java-based GUI are sent to a Python backend using Flask.
+### Overview
+The **Spam Detection App** is a practical project designed to apply TensorFlow and NLP techniques for classifying spam messages. This project builds on concepts from the *Machine Learning Specialization* and the book *Natural Language Processing in Action* to create, train, and deploy an effective spam detection model.
 
-In the Python backend, the image is processed and fed into a fine-tuned VGG model trained with PyTorch to classify butterfly species. The prediction results are then sent back to the Java application for display.
+### Key Features
 
+- **Spam Detection Model:** Utilizes TensorFlow and LSTM networks to develop and train a model for spam classification.
+- **Data Processing:** Implements text preprocessing steps, including tokenization, padding, lemmatization, and stop-word removal.
+- **Flask API:** Deploys the trained model using Flask for real-time spam classification.
+- **Java Frontend:** Features a Java-based frontend that interacts with the Flask API to handle user inputs and display classification results.
 
-https://github.com/user-attachments/assets/6d2601c7-4664-4e59-b822-ed584248024b
+### Technologies Used
 
+- **TensorFlow:** For developing and training NLP models with LSTM layers.
+- **Python & Flask:** For deploying the model as an API.
+- **Java:** For creating the frontend application.
+- **NLP Techniques:** Tokenization, stop-word removal, lemmatization, and text preprocessing.
 
-Technologies Used:
+### Dataset
 
-Java & JavaFX: For GUI and file selection.
-Python & Flask: For handling requests and interfacing with the PyTorch model.
-PyTorch: For image classification.
-To use this app:
+The model is trained on the [Email Spam Detection Dataset](https://www.kaggle.com/datasets/shantanudhakadd/email-spam-detection-dataset-classification) from Kaggle. This dataset provides a collection of emails labeled as spam or not spam, used for training and evaluating the spam detection model.
 
-Make sure you have pytorch installed
+### Learning Objectives
 
-Download the .pth file from the provided Dropbox link : https://www.dropbox.com/scl/fi/4fee601p77854l1mgjfp8/butterfly_model.pth?rlkey=ddxsjjkkyzti5ngpwt84jtoba&st=kgndiuk1&dl=0
+- **NLP Model Development:** Gain hands-on experience with TensorFlow to develop and train NLP models for text classification.
+- **Text Preprocessing:** Apply various NLP techniques to prepare and clean textual data.
+- **API Deployment:** Learn to deploy machine learning models using Flask as an API.
+- **Integration Skills:** Connect a Java frontend with a Flask API to deliver a practical application.
 
-and insert it into the python folder.
+### Project Impact
 
-Run app.py in the Python environment.
-
-Launch the Java application to interact with the GUI.
-
-The dataset used to train the model can be found here : https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification/data
+This project provides practical experience in developing and deploying NLP models with TensorFlow, focusing on applying machine learning techniques to real-world problems.
