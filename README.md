@@ -1,8 +1,11 @@
+
+
 ## ButterflyClassifier
 
 **ButterflyClassifier** is an application that integrates Java and Python to classify butterfly species. The application leverages JavaFX for the graphical user interface (GUI) and uses Flask to communicate with a Python backend. The backend processes images with a fine-tuned VGG model trained in PyTorch and sends classification results back to the Java application.
 
-![Butterfly Classification](https://github.com/user-attachments/assets/6d2601c7-4664-4e59-b822-ed584248024b)
+[Butterfly Classification](https://github.com/user-attachments/assets/8ed77e73-8576-4f31-aaeb-3c80e9231c0e)
+
 
 ### Technologies Used
 
